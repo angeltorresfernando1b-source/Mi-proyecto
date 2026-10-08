@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fernando Angel Torres – Desarrollador de software</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="progress"><i id="bar"></i></div>
+
+<header class="top">
+  <a class="brand" href="#" data-go="0">FAT<span>.dev</span></a>
+  <nav id="menu">
+    <a href="#" data-go="1">Sobre mí</a><a href="#" data-go="2">Habilidades</a><a href="#" data-go="3">Proyectos</a><a href="#" data-go="4">Trayectoria</a><a href="#" data-go="5">Contacto</a>
+  </nav>
+</header>
+
+<main class="track" id="track">
+
+  <section class="panel hero">
+    <span class="ghost" aria-hidden="true">DEV</span>
+    <div class="col">
+      <p class="tag rise" style="--i:0">&lt;Hola, mundo/&gt;</p>
+      <h1 class="rise" style="--i:1">Fernando<br>Angel Torres</h1>
+      <p class="sub rise" style="--i:2">Desarrollador de software. Convierto ideas en aplicaciones que funcionan, escalan y se ven bien.</p>
+      <div class="cta rise" style="--i:3">
+        <a class="btn" href="#" data-go="3">Ver proyectos →</a>
+        <a class="btn ghost" href="#" data-go="5">Contrátame</a>
+      </div>
+      <p class="hint rise" style="--i:4">Desliza, usa la rueda del mouse o las flechas ← →</p>
+    </div>
+    <figure class="photo rise" style="--i:2">
+      <img src="images/fernando.jpg" alt="Fernando Angel Torres, desarrollador de software">
+      <figcaption>● Disponible para proyectos</figcaption>
+    </figure>
+  </section>
+
+  <section class="panel">
+    <span class="num" aria-hidden="true">01</span>
+    <div class="two">
+      <div>
+        <h2 class="rise" style="--i:0">Sobre mí</h2>
+        <p class="rise" style="--i:1">Soy desarrollador de software con enfoque en crear productos limpios, rápidos y fáciles de mantener. Me gusta entender el problema antes de escribir la primera línea de código.</p>
+        <p class="rise" style="--i:2">Trabajo de forma ordenada, comunico avances con claridad y entrego a tiempo, ya sea solo o dentro de un equipo.</p>
+      </div>
+      <pre class="code rise" style="--i:2"><code><b>const</b> <u>fernando</u> = {
+  rol:     <s>"Desarrollador de software"</s>,
+  stack:   [<s>"HTML"</s>, <s>"CSS"</s>, <s>"JavaScript"</s>],
+  enfoque: <s>"código limpio y rendimiento"</s>,
+  idiomas: [<s>"Español"</s>, <s>"Inglés técnico"</s>],
+  disponible: <b>true</b>
+};</code></pre>
+    </div>
+  </section>
+
+  <section class="panel">
+    <span class="num" aria-hidden="true">02</span>
+    <div class="wide">
+      <h2 class="rise" style="--i:0">Habilidades</h2>
+      <div class="rings rise" style="--i:1" id="rings"></div>
+      <div class="chips rise" style="--i:2" id="chips"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <span class="num" aria-hidden="true">03</span>
+    <div class="wide">
+      <h2 class="rise" style="--i:0">Proyectos</h2>
+      <div class="cards" id="cards"></div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <span class="num" aria-hidden="true">04</span>
+    <div class="wide">
+      <h2 class="rise" style="--i:0">Trayectoria</h2>
+      <ol class="path" id="path"></ol>
+    </div>
+  </section>
+
+  <section class="panel end">
+    <span class="num" aria-hidden="true">05</span>
+    <div class="col">
+      <h2 class="big rise" style="--i:0">¿Construimos algo juntos?</h2>
+      <p class="sub rise" style="--i:1">Cuéntame tu idea. Te respondo en menos de 24 horas.</p>
+      <ul class="links rise" style="--i:2">
+        <li>✉️ <a href="mailto:tucorreo@ejemplo.com">tucorreo@ejemplo.com</a></li>
+        <li>📱 +52 000 000 0000</li>
+        <li>🔗 linkedin.com/in/tu-usuario</li>
+        <li>🐙 github.com/tu-usuario</li>
+      </ul>
+      <a class="btn rise" style="--i:3" href="mailto:tucorreo@ejemplo.com?subject=Quiero%20contratarte">Escribirme un correo</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="bottom">
+  <button id="prev" aria-label="Anterior">←</button>
+  <span id="count">01 / 06</span>
+  <div class="dots" id="dots"></div>
+  <button id="next" aria-label="Siguiente">→</button>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
